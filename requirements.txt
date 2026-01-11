@@ -1,0 +1,18 @@
+# --- COEUR DE L'IA ---
+fastapi          # Pour créer notre API ultra-rapide
+uvicorn          # Le serveur pour faire tourner l'API
+python-multipart # Pour recevoir des fichiers audio via l'API
+
+# --- TRADUCTION & LANGAGE ---
+torch            # Le moteur de calcul pour l'IA (PyTorch)
+transformers     # Pour utiliser les modèles de Meta (NLLB) et HuggingFace
+sentencepiece    # Nécessaire pour le découpage des mots africains
+
+# --- TRAITEMENT AUDIO (STT/TTS) ---
+openai-whisper   # Pour transformer la voix en texte (très robuste)
+gTTS             # Pour la synthèse vocale simple en version 1.0.0
+pydub            # Pour manipuler les fichiers audio (couper, convertir)
+
+# --- UTILITAIRES ---
+python-dotenv    # Pour gérer les configurations sécurisées
+pydantic         # Pour valider que les données (mots, langues) sont correctes
