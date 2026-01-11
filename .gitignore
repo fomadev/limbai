@@ -1,0 +1,32 @@
+# --- PYTHON ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv
+venv/
+ENV/
+build/
+dist/
+
+# --- MODELS IA ---
+models/
+*.bin
+*.pt
+*.pth
+*.onnx
+
+# --- AUDIO & DATA ---
+data/*.wav
+data/*.mp3
+data/temp/
+*.log
+
+# --- ENVIRONNEMENT & SECRETS ---
+.env
+.flaskenv
+.vscode/
+.idea/
+
+# --- OS ---
+.DS_Store
+Thumbs.db
